@@ -29,7 +29,7 @@ var percentage= parseFloat(percentage);
 
 document.write(message + '  $' + finalPrice+'.');
 document.write('<br>');
-document.write('The chage is '+percentage+ '%.');
+document.write('The change is '+percentage+ '%.');
                                   } else {
   alert('Lets calculate your new base price. Exclusive only taxes');
 var taxRate=prompt ('Please enter your new tax rate total across exclusive taxes added together in 1.X format');
